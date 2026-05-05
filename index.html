@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NeuroDrive – Der nachrüstbare Smart Safety Chip für dein Lenkrad.">
+  <title>NeuroDrive – Sicherheit beginnt im Kopf.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="#" class="nav__logo">
+          <svg class="nav__logo-icon" viewBox="0 0 32 32" fill="none">
+            <circle cx="16" cy="16" r="15" stroke="url(#g1)" stroke-width="2"/>
+            <circle cx="16" cy="16" r="5" fill="url(#g1)"/>
+            <line x1="16" y1="1" x2="16" y2="8" stroke="url(#g1)" stroke-width="2" stroke-linecap="round"/>
+            <line x1="16" y1="24" x2="16" y2="31" stroke="url(#g1)" stroke-width="2" stroke-linecap="round"/>
+            <line x1="1" y1="16" x2="8" y2="16" stroke="url(#g1)" stroke-width="2" stroke-linecap="round"/>
+            <line x1="24" y1="16" x2="31" y2="16" stroke="url(#g1)" stroke-width="2" stroke-linecap="round"/>
+            <defs><linearGradient id="g1" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#1A6DFF"/><stop offset="100%" stop-color="#00B8FF"/></linearGradient></defs>
+          </svg>
+          NeuroDrive
+        </a>
+        <ul class="nav__links">
+          <li><a href="#problem">Problem</a></li>
+          <li><a href="#solution">Lösung</a></li>
+          <li><a href="#features">Vorteile</a></li>
+          <li><a href="#gallery">Produkt</a></li>
+          <li><a href="#pricing">Preise</a></li>
+        </ul>
+        <a href="#cta" class="btn btn--primary btn--sm">Vorbestellen</a>
+        <button class="nav__burger" id="navBurger" aria-label="Menü">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#problem" class="mobile-menu__link">Problem</a></li>
+      <li><a href="#solution" class="mobile-menu__link">Lösung</a></li>
+      <li><a href="#features" class="mobile-menu__link">Vorteile</a></li>
+      <li><a href="#gallery" class="mobile-menu__link">Produkt</a></li>
+      <li><a href="#pricing" class="mobile-menu__link">Preise</a></li>
+      <li><a href="#cta" class="btn btn--primary" style="display:inline-block;margin-top:12px">Vorbestellen</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__orb hero__orb--1"></div>
+    <div class="hero__orb hero__orb--2"></div>
+    <div class="hero__grid"></div>
+    <div class="container">
+      <div class="hero__layout">
+        <div class="hero__content reveal">
+          <div class="badge badge--blue"><span class="badge__dot"></span>Smart Safety Technology</div>
+          <!-- Headline – Text hier anpassen -->
+          <h1 class="hero__headline">Sicherheit beginnt<br>im Kopf –<br><span class="gradient-text">und im Lenkrad.</span></h1>
+          <p class="hero__sub">NeuroDrive ist der erste nachrüstbare Sicherheitschip fürs Lenkrad. Er erkennt Sekundenschlaf und Unaufmerksamkeit in Echtzeit und warnt dich aktiv – bevor es gefährlich wird.</p>
+          <div class="hero__actions">
+            <a href="#solution" class="btn btn--primary btn--lg">Jetzt entdecken <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="10" x2="16" y2="10"/><polyline points="10 4 16 10 10 16"/></svg></a>
+            <a href="#problem" class="btn btn--ghost btn--lg">Mehr erfahren</a>
+          </div>
+          <div class="hero__stats">
+            <div class="hero__stat"><span class="hero__stat-value">15 Min.</span><span class="hero__stat-label">Installation</span></div>
+            <div class="hero__stat-divider"></div>
+            <div class="hero__stat"><span class="hero__stat-value">ab 79 €</span><span class="hero__stat-label">Einstiegspreis</span></div>
+            <div class="hero__stat-divider"></div>
+            <div class="hero__stat"><span class="hero__stat-value">99 %</span><span class="hero__stat-label">Kompatibel</span></div>
+          </div>
+        </div>
+        <div class="hero__visual reveal reveal--delay-1">
+          <div class="hero__visual-glow"></div>
+          <!--
+            KI-BILD PROMPT: "Futuristic smart steering wheel with glowing blue safety chip in center hub,
+            dark premium automotive interior, blue LED ring indicators, ultra-realistic 3D render, 8K"
+            Ersetze durch: <img src="images/hero-wheel.png" alt="NeuroDrive" class="hero__img">
+          -->
+          <figure class="img-placeholder img-placeholder--hero">
+            <div class="img-placeholder__icon">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="32" cy="32" r="28"/><circle cx="32" cy="32" r="9"/>
+                <line x1="32" y1="4" x2="32" y2="16"/><line x1="32" y1="48" x2="32" y2="60"/>
+                <line x1="4" y1="32" x2="16" y2="32"/><line x1="48" y1="32" x2="60" y2="32"/>
+              </svg>
+            </div>
+            <figcaption>KI-Bild: Futuristisches Lenkrad mit NeuroDrive-Chip</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="section" id="problem">
+    <div class="container">
+      <div class="section__header reveal">
+        <div class="badge badge--subtle">Das Problem</div>
+        <h2 class="section__title">Zu viele Unfälle.<br>Zu wenig Schutz.</h2>
+        <p class="section__sub">Sekundenschlaf, Ablenkung und fehlende Assistenzsysteme – besonders junge Fahrer sind stark gefährdet. Die meisten älteren Autos bieten kaum Schutz dagegen.</p>
+      </div>
+      <div class="grid grid--3 reveal">
+        <div class="card card--problem">
+          <div class="card__icon card__icon--red"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+          <div class="card__stat">25 %</div>
+          <h3 class="card__title">Unfälle durch Müdigkeit</h3>
+          <p class="card__text">Rund ein Viertel aller schweren Verkehrsunfälle auf Fernstraßen ist auf Sekundenschlaf oder extreme Müdigkeit zurückzuführen.</p>
+        </div>
+        <div class="card card--problem">
+          <div class="card__icon card__icon--amber"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
+          <div class="card__stat">18–24</div>
+          <h3 class="card__title">Die gefährlichste Altersgruppe</h3>
+          <p class="card__text">Fahranfänger haben statistisch das höchste Unfallrisiko. Unerfahrenheit, Unterschätzung von Gefahren und Ablenkung durch Smartphones sind die Hauptursachen.</p>
+        </div>
+        <div class="card card--problem">
+          <div class="card__icon card__icon--blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+          <div class="card__stat">60 Mio.</div>
+          <h3 class="card__title">Autos ohne Assistenzsysteme</h3>
+          <p class="card__text">Die meisten Fahrzeuge auf deutschen Straßen sind älter und verfügen über keinerlei Müdigkeitserkennung oder Notbremsassistenten.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTION -->
+  <section class="section section--dark" id="solution">
+    <div class="container">
+      <div class="section__header reveal">
+        <div class="badge badge--blue">Die Lösung</div>
+        <h2 class="section__title">So funktioniert <span class="gradient-text">NeuroDrive</span></h2>
+        <p class="section__sub">Vier einfache Schritte trennen dich von moderner Fahrsicherheit – ganz ohne Neuwagen oder teure Werkstattbesuche.</p>
+      </div>
+      <div class="steps reveal">
+        <div class="step">
+          <div class="step__number">01</div>
+          <div class="step__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+          <h3 class="step__title">Chip einbauen</h3>
+          <p class="step__text">NeuroDrive wird einfach ins Lenkrad geclipst. Keine Werkzeuge, keine Werkstatt – fertig in ca. <strong>15 Minuten</strong>.</p>
+        </div>
+        <div class="step__connector" aria-hidden="true"></div>
+        <div class="step">
+          <div class="step__number">02</div>
+          <div class="step__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+          <h3 class="step__title">App verbinden</h3>
+          <p class="step__text">Die NeuroDrive-App per Bluetooth koppeln, persönliche Einstellungen vornehmen und Notfallkontakte hinterlegen.</p>
+        </div>
+        <div class="step__connector" aria-hidden="true"></div>
+        <div class="step">
+          <div class="step__number">03</div>
+          <div class="step__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <h3 class="step__title">Fahren &amp; geschützt sein</h3>
+          <p class="step__text">NeuroDrive überwacht in Echtzeit. Bei Sekundenschlaf ertönt eine dreistufige Warnung – Vibration, Ton und Licht.</p>
+        </div>
+        <div class="step__connector" aria-hidden="true"></div>
+        <div class="step">
+          <div class="step__number">04</div>
+          <div class="step__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+          <h3 class="step__title">Fahrdaten analysieren</h3>
+          <p class="step__text">Die App speichert dein Fahrprofil: Wann bist du am müdesten? Welche Strecken sind riskant? Werde ein bewussterer Fahrer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section__header reveal">
+        <div class="badge badge--subtle">Deine Vorteile</div>
+        <h2 class="section__title">Moderne Sicherheit.<br>Fairer Preis.</h2>
+        <p class="section__sub">NeuroDrive gibt dir die Sicherheitstechnologie moderner Neuwagen – nachrüstbar für dein bestehendes Fahrzeug.</p>
+      </div>
+      <div class="grid grid--3 reveal">
+        <div class="card card--feature">
+          <div class="card__icon card__icon--blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+          <h3 class="card__title">Bezahlbar</h3>
+          <p class="card__text">Ab 79 € bekommst du Sicherheitstechnologie, für die andere tausende Euro für ein neues Auto ausgeben.</p>
+        </div>
+        <div class="card card--feature">
+          <div class="card__icon card__icon--blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+          <h3 class="card__title">Selbstmontage in 15 Min.</h3>
+          <p class="card__text">Kein Werkstatttermin nötig. Der Chip lässt sich in wenigen Minuten ohne Werkzeug ins Lenkrad einbauen.</p>
+        </div>
+        <div class="card card--feature">
+          <div class="card__icon card__icon--blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+          <h3 class="card__title">App-Anbindung</h3>
+          <p class="card__text">Bluetooth-Verbindung zur kostenlosen NeuroDrive-App. Live-Monitoring, Fahrberichte, Notfallkontakte.</p>
+        </div>
+        <div class="card card--feature">
+          <div class="card__icon card__icon--blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+          <h3 class="card__title">Dreistufiges Frühwarnsystem</h3>
+          <p class="card__text">Vibration, Ton und Licht-Alert direkt im Lenkrad – eskalierend für maximale Reaktion in jeder Situation.</p>
+        </div>
+        <div class="card card--feature">
+          <div class="card__icon card__icon--blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg></div>
+          <h3 class="card__title">Persönliche Einstellungen</h3>
+          <p class="card__text">Empfindlichkeit, Warnton und Notfallkontakt – alles auf dich angepasst. Funktioniert auch ohne Smartphone.</p>
+        </div>
+        <div class="card card--feature">
+          <div class="card__icon card__icon--blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M19 17H5a4 4 0 0 1 0-8h.5"/><path d="M19 9V7a2 2 0 0 0-2-2H7"/><circle cx="17" cy="17" r="3"/></svg></div>
+          <h3 class="card__title">Breite Kompatibilität</h3>
+          <p class="card__text">Kompatibel mit nahezu allen Lenkrädern älterer Fahrzeuge ab Baujahr 2000. Universale Klemm-Montage ohne Bohrungen.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section section--dark" id="gallery">
+    <div class="container">
+      <div class="section__header reveal">
+        <div class="badge badge--blue">Produkt</div>
+        <h2 class="section__title">NeuroDrive in Aktion</h2>
+        <p class="section__sub">Von der Werkbank bis auf die Autobahn.</p>
+      </div>
+      <div class="gallery reveal">
+        <!-- Hauptbild – KI-PROMPT: "NeuroDrive chip on dark workshop table, glowing blue LEDs, macro, 8K" -->
+        <figure class="gallery__item gallery__item--main img-placeholder">
+          <div class="img-placeholder__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <figcaption class="img-placeholder__caption">KI-Bild: NeuroDrive Chip auf Werkbank (Makro, blaues Leuchten)</figcaption>
+        </figure>
+        <!-- KI-PROMPT: "NeuroDrive chip in steering wheel, glowing blue ring, dark interior at night" -->
+        <figure class="gallery__item img-placeholder">
+          <div class="img-placeholder__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="2" x2="12" y2="7"/><line x1="12" y1="17" x2="12" y2="22"/><line x1="2" y1="12" x2="7" y2="12"/><line x1="17" y1="12" x2="22" y2="12"/></svg></div>
+          <figcaption class="img-placeholder__caption">KI-Bild: Chip im Lenkrad eingebaut (Nacht)</figcaption>
+        </figure>
+        <!-- KI-PROMPT: "NeuroDrive app on iPhone, dark UI, blue safety charts, blurred car background" -->
+        <figure class="gallery__item img-placeholder">
+          <div class="img-placeholder__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"/><polyline points="8 12 11 15 16 9"/></svg></div>
+          <figcaption class="img-placeholder__caption">KI-Bild: App-Dashboard auf iPhone (Dark UI)</figcaption>
+        </figure>
+        <!-- KI-PROMPT: "Young drowsy driver at night, blue flash from NeuroDrive chip, cinematic" -->
+        <figure class="gallery__item img-placeholder">
+          <div class="img-placeholder__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg></div>
+          <figcaption class="img-placeholder__caption">KI-Bild: Junger Fahrer nachts – Warnblitz</figcaption>
+        </figure>
+        <!-- KI-PROMPT: "Split-screen: old car interior vs. same car with NeuroDrive blue glow ring" -->
+        <figure class="gallery__item img-placeholder">
+          <div class="img-placeholder__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="12" y1="3" x2="12" y2="21"/></svg></div>
+          <figcaption class="img-placeholder__caption">KI-Bild: Vorher/Nachher – Ohne vs. Mit NeuroDrive</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ZIELGRUPPE -->
+  <section class="section" id="audience">
+    <div class="container">
+      <div class="section__header reveal">
+        <div class="badge badge--subtle">Für wen?</div>
+        <h2 class="section__title">NeuroDrive ist für dich.</h2>
+        <p class="section__sub">Egal ob Fahranfänger, Pendler oder besorgter Elternteil – NeuroDrive schützt alle, die täglich unterwegs sind.</p>
+      </div>
+      <div class="grid grid--4 reveal">
+        <div class="card card--audience"><div class="audience__emoji">🚗</div><h3 class="card__title">Fahranfänger</h3><p class="card__text">Mit wenig Erfahrung sind junge Fahrer besonders gefährdet. NeuroDrive gibt Sicherheit, wenn du sie am meisten brauchst.</p></div>
+        <div class="card card--audience"><div class="audience__emoji">📚</div><h3 class="card__title">Studierende</h3><p class="card__text">Lange Nächte, frühe Vorlesungen, weite Strecken – NeuroDrive erkennt Übermüdung rechtzeitig.</p></div>
+        <div class="card card--audience"><div class="audience__emoji">🏢</div><h3 class="card__title">Pendler</h3><p class="card__text">Monotone Autobahnfahrten fördern Sekundenschlaf. NeuroDrive hält dich wach – jeden Morgen, jede Heimfahrt.</p></div>
+        <div class="card card--audience"><div class="audience__emoji">👨‍👩‍👧</div><h3 class="card__title">Eltern</h3><p class="card__text">Schenke deinen Kindern mehr Sicherheit. NeuroDrive lässt sich einfach einbauen und benachrichtigt dich im Notfall sofort.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PREISE -->
+  <section class="section section--dark" id="pricing">
+    <div class="container">
+      <div class="section__header reveal">
+        <div class="badge badge--blue">Preise</div>
+        <h2 class="section__title">Dein NeuroDrive.<br>Dein Preis.</h2>
+        <p class="section__sub">Alle Pakete inklusive kostenloser App und komplettem Montageset. Einmalig bezahlen – dauerhaft sicher fahren.</p>
+      </div>
+      <div class="pricing reveal">
+        <div class="pricing__card">
+          <div class="pricing__tier">Basic</div>
+          <div class="pricing__price-row"><span class="pricing__currency">€</span><span class="pricing__amount">79</span></div>
+          <div class="pricing__period">einmalig · inkl. MwSt.</div>
+          <ul class="pricing__features">
+            <li class="yes">1 Fahrzeug</li>
+            <li class="yes">Sekundenschlaf-Erkennung</li>
+            <li class="yes">Vibrations- &amp; Ton-Alert</li>
+            <li class="yes">App inklusive</li>
+            <li class="yes">1 Jahr Garantie</li>
+            <li class="no">Fahranalyse &amp; Berichte</li>
+            <li class="no">Notfallkontakt</li>
+            <li class="no">2. Fahrzeug</li>
+          </ul>
+          <a href="#" class="btn btn--ghost btn--full">Jetzt bestellen</a>
+        </div>
+        <div class="pricing__card pricing__card--featured">
+          <div class="pricing__featured-badge">Empfohlen</div>
+          <div class="pricing__tier">Plus</div>
+          <div class="pricing__price-row"><span class="pricing__currency">€</span><span class="pricing__amount">99</span></div>
+          <div class="pricing__period">einmalig · inkl. MwSt.</div>
+          <ul class="pricing__features">
+            <li class="yes">1 Fahrzeug</li>
+            <li class="yes">Sekundenschlaf-Erkennung</li>
+            <li class="yes">Vibrations- &amp; Ton-Alert</li>
+            <li class="yes">App inklusive</li>
+            <li class="yes">2 Jahre Garantie</li>
+            <li class="yes">Fahranalyse &amp; Berichte</li>
+            <li class="yes">Notfallkontakt</li>
+            <li class="no">2. Fahrzeug</li>
+          </ul>
+          <a href="#" class="btn btn--primary btn--full">Jetzt bestellen</a>
+        </div>
+        <div class="pricing__card">
+          <div class="pricing__tier">Family</div>
+          <div class="pricing__price-row"><span class="pricing__currency">€</span><span class="pricing__amount">129</span></div>
+          <div class="pricing__period">einmalig · inkl. MwSt.</div>
+          <ul class="pricing__features">
+            <li class="yes">2 Fahrzeuge</li>
+            <li class="yes">Sekundenschlaf-Erkennung</li>
+            <li class="yes">Vibrations- &amp; Ton-Alert</li>
+            <li class="yes">App inklusive</li>
+            <li class="yes">2 Jahre Garantie</li>
+            <li class="yes">Fahranalyse &amp; Berichte</li>
+            <li class="yes">Notfallkontakt</li>
+            <li class="yes">Familien-Dashboard</li>
+          </ul>
+          <a href="#" class="btn btn--ghost btn--full">Jetzt bestellen</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VERTRAUEN -->
+  <section class="section" id="trust">
+    <div class="container">
+      <div class="section__header reveal">
+        <div class="badge badge--subtle">Sicherheit &amp; Vertrauen</div>
+        <h2 class="section__title">Entwickelt für echten Schutz.</h2>
+      </div>
+      <div class="trust reveal">
+        <div class="trust__item">
+          <div class="trust__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg></div>
+          <h3 class="trust__title">Mehr Sicherheit für junge Fahrer</h3>
+          <p class="trust__text">NeuroDrive wurde speziell für die Risikogruppe der 16–29-Jährigen entwickelt. Einfache Bedienung, null Ablenkung.</p>
+        </div>
+        <div class="trust__item">
+          <div class="trust__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <h3 class="trust__title">Frühzeitige Warnung bei Konzentrationsverlust</h3>
+          <p class="trust__text">NeuroDrive erkennt Unaufmerksamkeit <em>bevor</em> eine gefährliche Situation entsteht – nicht erst dann, wenn es zu spät ist.</p>
+        </div>
+        <div class="trust__item">
+          <div class="trust__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+          <h3 class="trust__title">Entwickelt für ältere Fahrzeuge</h3>
+          <p class="trust__text">Kein Neuwagen nötig. NeuroDrive bringt moderne Assistenz-Technologie in Autos, die eigentlich keine hätten.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-final" id="cta">
+    <div class="cta-final__bg"></div>
+    <div class="container">
+      <div class="cta-final__content reveal">
+        <h2 class="cta-final__title">Fahr nie wieder<br>ungeschützt los.</h2>
+        <p class="cta-final__sub">NeuroDrive. Nachrüstbar. Bezahlbar. Lebensrettend.</p>
+        <a href="#pricing" class="btn btn--white btn--lg">NeuroDrive vorbestellen <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="10" x2="16" y2="10"/><polyline points="10 4 16 10 10 16"/></svg></a>
+        <p class="cta-final__note">Kostenloser Versand · 30 Tage Rückgabe · 2 Jahre Garantie (Plus &amp; Family)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="#" class="nav__logo">
+            <svg class="nav__logo-icon" viewBox="0 0 32 32" fill="none">
+              <circle cx="16" cy="16" r="15" stroke="url(#g2)" stroke-width="2"/>
+              <circle cx="16" cy="16" r="5" fill="url(#g2)"/>
+              <line x1="16" y1="1" x2="16" y2="8" stroke="url(#g2)" stroke-width="2" stroke-linecap="round"/>
+              <line x1="16" y1="24" x2="16" y2="31" stroke="url(#g2)" stroke-width="2" stroke-linecap="round"/>
+              <line x1="1" y1="16" x2="8" y2="16" stroke="url(#g2)" stroke-width="2" stroke-linecap="round"/>
+              <line x1="24" y1="16" x2="31" y2="16" stroke="url(#g2)" stroke-width="2" stroke-linecap="round"/>
+              <defs><linearGradient id="g2" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#1A6DFF"/><stop offset="100%" stop-color="#00B8FF"/></linearGradient></defs>
+            </svg>
+            NeuroDrive
+          </a>
+          <p class="footer__tagline">Sicherheit beginnt im Kopf –<br>und im Lenkrad.</p>
+        </div>
+        <div class="footer__links">
+          <div class="footer__col">
+            <h4 class="footer__col-title">Produkt</h4>
+            <a href="#solution">Wie es funktioniert</a>
+            <a href="#features">Vorteile</a>
+            <a href="#pricing">Preise</a>
+          </div>
+          <div class="footer__col">
+            <h4 class="footer__col-title">Unternehmen</h4>
+            <a href="#">Über uns</a>
+            <a href="#">Presse</a>
+            <a href="#">Kontakt</a>
+          </div>
+          <div class="footer__col">
+            <h4 class="footer__col-title">Rechtliches</h4>
+            <a href="#">Impressum</a>
+            <a href="#">Datenschutz</a>
+            <a href="#">AGB</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 NeuroDrive GmbH. Alle Rechte vorbehalten.</p>
+        <p>Made with ❤️ for safer roads.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
